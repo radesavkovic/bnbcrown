@@ -1,0 +1,57 @@
+export const CHAINS = {
+  BSC: {
+    name: "BSC Mainnet",
+    chain: "BSC",
+    rpc: [
+      "https://bsc-dataseed1.binance.org",
+      "https://bsc-dataseed2.binance.org",
+      "https://bsc-dataseed3.binance.org",
+      "https://bsc-dataseed4.binance.org",
+      "https://bsc-dataseed1.defibit.io",
+      "https://bsc-dataseed2.defibit.io",
+      "https://bsc-dataseed3.defibit.io",
+      "https://bsc-dataseed4.defibit.io",
+      "https://bsc-dataseed1.ninicoin.io",
+      "https://bsc-dataseed2.ninicoin.io",
+      "https://bsc-dataseed3.ninicoin.io",
+      "https://bsc-dataseed4.ninicoin.io",
+      "wss://bsc-ws-node.nariox.org",
+    ],
+    faucets: ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+    nativeCurrency: {
+      name: "Binance Chain Native Token",
+      symbol: "BNB",
+      decimals: 18,
+    },
+    infoURL: "https://www.binance.org",
+    shortName: "bsc",
+    chainId: 56,
+    networkId: 56,
+    slip44: 714,
+    explorers: [
+      { name: "bscscan", url: "https://bscscan.com", standard: "EIP3091" },
+    ],
+  },
+  OEC: {
+    name: "OKXChain Mainnet",
+    chain: "okexchain",
+    rpc: ["https://exchainrpc.okex.org"],
+    faucets: ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
+    nativeCurrency: {
+      name: "OKExChain Global Utility Token",
+      symbol: "OKT",
+      decimals: 18,
+    },
+    infoURL: "https://www.okex.com/okexchain",
+    shortName: "okt",
+    chainId: 66,
+    networkId: 66,
+    explorers: [
+      {
+        name: "OKLink",
+        url: "https://www.oklink.com/okexchain",
+        standard: "EIP3091",
+      },
+    ],
+  },
+};
